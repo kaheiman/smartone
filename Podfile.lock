@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.5.1)
+  - SwiftyJSON (4.0.0-alpha.1)
+  - YangMingShan (2.0.0):
+    - YangMingShan/YMSPhotoPicker (= 2.0.0)
+  - YangMingShan/YMSPhotoPicker (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - YangMingShan
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 6d9b4885fbd7837861c5216d2ae4a1131e599f30
+    :git: https://github.com/Alamofire/Alamofire.git
+  SwiftyJSON:
+    :commit: 3c83ad485a11f53244e077d9b7625fbb2deee937
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0224236301daac8c6578172706304b66b48236b5
+  SwiftyJSON: c4d27c2ca659d5c91460cd17cc60fd212b26074d
+  YangMingShan: 590c58212fafbdaabc6ad8fec1c2c89d3974f257
+
+PODFILE CHECKSUM: 8b0ef5f254e16eaa18e5a4d454e1d5f3af6f9dba
+
+COCOAPODS: 1.3.1

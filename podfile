@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, ’11.0’
+
+target ‘smartone_project’ do
+
+  use_frameworks!
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git'
+  pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  pod 'YangMingShan'
+
+
+end
