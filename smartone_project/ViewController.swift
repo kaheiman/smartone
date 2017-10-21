@@ -12,7 +12,7 @@ import SwiftyJSON
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
 
 
-    var imageArray = [UIImage(named: "button1"), UIImage(named: "button2"), UIImage(named: "22222")]
+    var imageArray = [UIImage(named: "button1"), UIImage(named: "button2"), UIImage(named: "button1")]
 
     override func viewDidLoad() {
         super.viewDidLoad()

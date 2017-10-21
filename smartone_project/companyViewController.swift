@@ -10,7 +10,8 @@ import UIKit
 
 class companyViewController: UIViewController {
 
-    var name = ["asdasd", "adasd", "dqwdwq"]
+    var name = ["Company", "HR Group", "Buddies"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,9 +40,9 @@ extension companyViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "placeCell", for: indexPath) as! companyTableViewCell
+        let cell = UITableViewCell(style:UITableViewCellStyle.default, reuseIdentifier: "placeCell")
 
-        cell.companyName.text = name[indexPath.row]
+        cell.textLabel?.text = name[indexPath.row]
         print("######")
 
         return cell
