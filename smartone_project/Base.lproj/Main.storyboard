@@ -265,6 +265,13 @@
                                 <rect key="frame" x="0.0" y="415" width="375" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7D-F3-ook">
+                                <rect key="frame" x="10" y="35" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Jk7-TL-dFO" kind="show" id="vrV-xt-f08"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="CQM-Il-BHP"/>
@@ -277,7 +284,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qO1-ue-gmq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="1010"/>
+            <point key="canvasLocation" x="1053.5999999999999" y="1009.7451274362819"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="y47-ga-U9o">
@@ -550,4 +557,7 @@
         <image name="page2" width="375" height="682"/>
         <image name="page6" width="375" height="716"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vrV-xt-f08"/>
+    </inferredMetricsTieBreakers>
 </document>
